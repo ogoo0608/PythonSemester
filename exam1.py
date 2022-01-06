@@ -18,7 +18,7 @@ while True :
     
     if _uname == 'hong' and _passwd =='1234' :
         print("로그인 성공 ! 환영합니다.")
-        break
+        exit()
 
     else :
         cnt = cnt + 1
