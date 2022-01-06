@@ -21,3 +21,5 @@ while True :
     else :
         print("로그인 실패 ! 다시 시도하세요.")
         continue
+    
+# break 와 continue 잊지말자
