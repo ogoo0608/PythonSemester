@@ -9,6 +9,8 @@
 # _uname = 'hong'
 # _passwd = '1234'
 
+cnt = 0
+
 while True :
     
     _uname = input("아이디를 입력하세요 : ")
@@ -19,7 +21,11 @@ while True :
         break
 
     else :
-        print("로그인 실패 ! 다시 시도하세요.")
-        continue
+        cnt = cnt + 1
+        print("로그인 {}회 실패 !!" .format(cnt))
+        
+    if cnt >= 3 :
+        print("프로그램을 종료합니다.")
+        exit()
+        
     
-# break 와 continue 잊지말자
