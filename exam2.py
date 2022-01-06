@@ -42,19 +42,19 @@ while True :
             if c == '*' :
                 d = a * b
                 print('계산값은', d, '입니다.')
-                break
+                exit()
             
             if c == '+' :
                 d = a + b
                 print('계산값은', d, '입니다.')
-                break
+                exit()
             
             if c == '-' :
                 d = a - b
                 print('계산값은', d, '입니다.')
-                break
+                exit()
             
             if c == '/' :
                 d = a / b
                 print('계산값은', d, '입니다.')
-                break
+                exit()
