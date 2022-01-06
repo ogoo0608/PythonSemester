@@ -35,7 +35,9 @@ while True :
         continue
  
     if c != '+' or c != '-' or c != '*' or c != '/' : 
+        
         while True :
+            
             print('지원하지 않는 연산자입니다.')
             c = input('연산자 : ')
  
