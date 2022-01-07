@@ -34,3 +34,18 @@ def addNum(*nums):
 
 cnt, total = addNum(10,20,30)
 print(cnt,tot)
+
+# 전역 변수, 지역 변수, global 예제
+num4 = 10
+def VarTest():
+    global num5
+    num5 = 20
+    global num4
+    num4 = 100
+    print('VarTest() : ', num4)
+    
+VarTest()
+print(num4)
+# print(num5)==> 함수 안에 있는 변수는 호출 할 수 없음 .. but global 을 사용하면 가능해짐 !! 
+print(num5)
+
