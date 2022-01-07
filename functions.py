@@ -48,4 +48,3 @@ VarTest()
 print(num4)
 # print(num5)==> 함수 안에 있는 변수는 호출 할 수 없음 .. but global 을 사용하면 가능해짐 !! 
 print(num5)
-
